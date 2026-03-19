@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EquityMatch - LIMITED TIME OFFER</title>
+    <meta name="theme-color" content="#1c75bc">
+    <link rel="icon" href="https://equitymatch.co/favicon.ico" type="image/x-icon">
+    <!-- EquityMatch theme: Inter (body) + Space Grotesk (headings) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Ambient background layers -->
+    <div class="bg-effects" aria-hidden="true">
+        <div class="bg-grid"></div>
+        <div class="bg-glow bg-glow-a"></div>
+        <div class="bg-glow bg-glow-b"></div>
+        <div class="bg-noise"></div>
+    </div>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a class="nav-brand nav-brand-logo" href="https://www.equitymatch.co/" target="_blank" rel="noopener noreferrer">
+                <img src="https://www.equitymatch.co/assets/logo-COVVFAIO.svg" alt="EquityMatch" class="nav-logo" width="200" height="35" decoding="async">
+            </a>
+            <a class="nav-login js-landing-link" href="#" data-landing="login">JOIN NOW</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1 class="hero-title">Join a community of <span class="highlight">2,000+</span> members</h1>
+            <p class="hero-subtitle">Scaling ventures, building connections, and unlocking growth.</p>
+            
+            <!-- Slides built from window.HERO_STATS in scripts.js (single list, no duplicate HTML) -->
+            <div class="stats-carousel" role="region" aria-roledescription="carousel" aria-label="Community stats">
+                <div class="stats-track" id="statsTrack"></div>
+                <div class="stats-carousel-dots" role="tablist" aria-label="Choose stat slide"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Promo Section — core offer -->
+    <section class="promo" aria-labelledby="promo-heading">
+        <div class="promo-stage">
+            <div class="container">
+                <div class="promo-card">
+                    <span class="promo-ribbon" aria-hidden="true">Limited time</span>
+                    <p class="promo-label" id="promo-heading">Exclusive 2026 offer</p>
+                    <h2 class="promo-title">4 months Premium for <strong class="promo-price">$3</strong></h2>
+                    <div class="promo-pricing">
+                        <span class="promo-was">Was $87</span>
+                        <span class="promo-save">Save 96%</span>
+                    </div>
+                    <p class="promo-description">Join the free community and get this deal for your first upgrade in 2026.</p>
+                    <ul class="promo-benefits" aria-label="What you get">
+                        <li>Full Premium Access for All-in-One Ecosystem</li>
+                        <li>Access to 50,000+ Investors Database</li>
+                        <li>AI Pitch Deck Evaluation</li>
+                        <li>Unlimited Connections &amp; Premium Messaging</li>
+                        <li>Legal Support &amp; Valuation</li>
+                    </ul>
+                    <a class="btn btn-promo js-landing-link" href="#" data-landing="features"><span class="btn-promo-text">Join free &amp; claim offer</span></a>
+                    <p class="promo-condition">Valid for first monthly subscription upgrade in 2026.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tagline Section -->
+    <section class="tagline-section">
+        <div class="container">
+            <h2 class="tagline">Join the Free Community today and get an Exclusive Promotion Coupon to upgrade to Premium.</h2>
+        </div>
+    </section>
+
+    <!-- Features Table -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Why Choose EquityMatch?</h2>
+            
+            <div class="table-wrapper">
+                <table class="features-table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Feature</th>
+                            <th scope="col" class="freemium">Freemium</th>
+                            <th scope="col" class="premium">Premium</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="category-row">
+                            <td colspan="3" class="category-header">Community</td>
+                        </tr>
+                        <tr>
+                            <td>Connections</td>
+                            <td>10K</td>
+                            <td>Unlimited</td>
+                        </tr>
+                        <tr>
+                            <td>Strategic Networking</td>
+                            <td>Limited access</td>
+                            <td>Unlimited</td>
+                        </tr>
+                        <tr>
+                            <td>Connections Per Week</td>
+                            <td>Up to 50/week</td>
+                            <td>Up to 150/week</td>
+                        </tr>
+                        <tr>
+                            <td>Recommendations / Matchmaking</td>
+                            <td>Limited access</td>
+                            <td>Unlimited</td>
+                        </tr>
+                        <tr>
+                            <td>Following</td>
+                            <td>Up to 50/week</td>
+                            <td>Unlimited</td>
+                        </tr>
+                        <tr>
+                            <td>Messages</td>
+                            <td>Unlimited for connections</td>
+                            <td>Unlimited for connections</td>
+                        </tr>
+
+                        <tr class="category-row">
+                            <td colspan="3" class="category-header">Advanced Features</td>
+                        </tr>
+                        <tr>
+                            <td>Premium Messages</td>
+                            <td>Not included</td>
+                            <td>50 free messages/month to non-connections</td>
+                        </tr>
+                        <tr>
+                            <td>Investor Database</td>
+                            <td>Not included</td>
+                            <td>Access to 50,000+ investors</td>
+                        </tr>
+                        <tr>
+                            <td>Pitch Deck Evaluation</td>
+                            <td>Not included</td>
+                            <td>Instant AI-driven feedback</td>
+                        </tr>
+                        <tr>
+                            <td>Startup Evaluation Report</td>
+                            <td>Not included</td>
+                            <td>Proprietary AI assessment</td>
+                        </tr>
+                        <tr>
+                            <td>Startup Valuation</td>
+                            <td>Not included</td>
+                            <td>Calculate fair valuation with detailed report</td>
+                        </tr>
+                        <tr>
+                            <td>Legal Support</td>
+                            <td>Not included</td>
+                            <td>Access to legal contracts & documents</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to Scale Your Venture?</h2>
+            <p>Choose your plan and start connecting with the right people today.</p>
+            <div class="cta-buttons">
+                <a class="btn btn-secondary js-landing-link" href="#" data-landing="joinFree">Start Free</a>
+                <a class="btn btn-primary js-landing-link" href="#" data-landing="premium">Upgrade to Premium</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 EquityMatch. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="links-config.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
