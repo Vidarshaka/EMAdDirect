@@ -20,9 +20,10 @@
     --footer-bg: #0d1f2d;
     --success: #1c75bc;
 
-    /* Typography — EquityMatch-style: sans for body, geometric for headings */
-    --font-sans: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-    --font-heading: "Space Grotesk", Inter, system-ui, sans-serif;
+    /* Typography — entire page Switzer (matches equitymatch.co) */
+    --font: Switzer, "Switzer-Variable", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --font-sans: var(--font);
+    --font-heading: var(--font);
     --line-height-tight: 1.2;
     --line-height-body: 1.6;
     --line-height-relaxed: 1.65;
@@ -69,10 +70,11 @@
 
 html {
     scroll-behavior: smooth;
+    font-family: var(--font);
 }
 
 body {
-    font-family: var(--font-sans);
+    font-family: var(--font);
     line-height: var(--line-height-body);
     color: var(--text-dark);
     background:
